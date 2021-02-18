@@ -1,0 +1,1 @@
+It can be explained by analog to digital circuit. We can get this from using Fourier decomposition.

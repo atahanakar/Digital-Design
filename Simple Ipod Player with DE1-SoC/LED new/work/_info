@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vled_controller
+!s110 1579852478
+!i10b 1
+!s100 R3WNgLg[W`E=fMFDbg6341
+IL38=CRYP5`]KFl>C]b?AS3
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 d//Mac/Home/Desktop/denemeler
+w1579852474
+8//Mac/Home/Desktop/denemeler/led_controller.v
+F//Mac/Home/Desktop/denemeler/led_controller.v
+L0 2
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1579852478.426000
+!s107 //Mac/Home/Desktop/denemeler/led_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/denemeler/led_controller.v|
+!i113 1
+Z3 o-work work
+vled_controller_tb
+!s110 1579852947
+!i10b 1
+!s100 =U5l`aY6FI:NC5lU6aheU2
+Ig>[K6cL?f=:1n[DGdFK9>2
+R0
+R1
+w1579852943
+8//Mac/Home/Desktop/lab_1/led_controller_tb.v
+F//Mac/Home/Desktop/lab_1/led_controller_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1579852947.294000
+!s107 //Mac/Home/Desktop/lab_1/led_controller_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/lab_1/led_controller_tb.v|
+!i113 1
+R3

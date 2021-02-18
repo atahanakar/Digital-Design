@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vhex_controller
+!s110 1579862686
+!i10b 1
+!s100 KZHKXfU9UCMaDi>_oFdBW1
+IYgn:6H=FEMck?TOX[c9iM2
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 d//Mac/Home/Desktop/New folder
+w1579862681
+8//Mac/Home/Desktop/New folder/hex_controller .v
+F//Mac/Home/Desktop/New folder/hex_controller .v
+L0 2
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1579862686.288000
+!s107 //Mac/Home/Desktop/New folder/hex_controller .v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/New folder/hex_controller .v|
+!i113 1
+Z3 o-work work
+vkey_player
+!s110 1579862553
+!i10b 1
+!s100 bL4h?lm]^AQMoh@okfR3S2
+IPdf>zE^<QA=oh[Bf5ISLm3
+R0
+R1
+w1579862550
+8//Mac/Home/Desktop/New folder/key_player.v
+F//Mac/Home/Desktop/New folder/key_player.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1579862553.202000
+!s107 //Mac/Home/Desktop/New folder/key_player.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/New folder/key_player.v|
+!i113 1
+R3

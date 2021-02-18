@@ -1,0 +1,15 @@
+{//Mac/Home/Desktop/New folder/hex_controller .v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/New folder/hex_controller .v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module hex_controller
+
+Top level modules:
+	hex_controller
+
+} {} {}} {//Mac/Home/Desktop/New folder/key_player.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/New folder/key_player.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module key_player
+
+Top level modules:
+	key_player
+
+} {} {}}

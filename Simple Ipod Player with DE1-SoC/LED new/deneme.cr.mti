@@ -1,0 +1,15 @@
+//Mac/Home/Desktop/lab_1/led_controller_tb.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/lab_1/led_controller_tb.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module led_controller_tb
+
+Top level modules:
+	led_controller_tb
+
+} {} {}} //Mac/Home/Desktop/denemeler/led_controller.v {1 {vlog -work work -stats=none //Mac/Home/Desktop/denemeler/led_controller.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module led_controller
+
+Top level modules:
+	led_controller
+
+} {} {}}
