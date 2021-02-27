@@ -1,0 +1,255 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/HW2
+vdoublesync
+Z0 !s110 1581204885
+!i10b 1
+!s100 h[h?dcIHcN;P79NdP34S[0
+I5l4QB2?IQB`P:DU88<Gi[0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 d//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests
+w986860774
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/doublesync.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/doublesync.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1581204885.076000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/doublesync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/doublesync.v|
+!i113 1
+Z4 o-work work
+vfsm
+!s110 1581587639
+!i10b 1
+!s100 F=^5FN4N`EcB:<B>:OXME1
+I5D46QmXg[kb0bh7i^a[e_3
+R1
+Z5 dZ:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests
+w1581587635
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1581587638.987000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm.v|
+!i113 1
+R4
+vfsm2
+!s110 1581587445
+!i10b 1
+!s100 XKgXl>69m6^4cO9]D4f4[1
+IhU:CKo6>4z998N[?Y>Xm73
+R1
+R5
+w1581587441
+8Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm2.v
+FZ:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1581587445.813000
+!s107 Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm2.v|
+!i113 1
+R4
+vfsm_tb
+!s110 1581588537
+!i10b 1
+!s100 KSYdXdfZUO5C26f5>?JeU1
+I7g4o9o?h62ilFFP;ZLY?^0
+R1
+R5
+w1581588515
+8Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm_tb.v
+FZ:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm_tb.v
+L0 37
+R3
+r1
+!s85 0
+31
+!s108 1581588537.459000
+!s107 Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm_tb.v|
+!i113 1
+R4
+vGenerate_Arbitrary_Divided_Clk32
+R0
+!i10b 1
+!s100 8=iGlzck0b@NKb_VFN7YH2
+I<:;YH5A6586Oe:nA]NPRQ3
+R1
+R2
+w1217274320
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Generate_Arbitrary_Divided_Clk32.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Generate_Arbitrary_Divided_Clk32.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1581204885.240000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Generate_Arbitrary_Divided_Clk32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Generate_Arbitrary_Divided_Clk32.v|
+!i113 1
+R4
+n@generate_@arbitrary_@divided_@clk32
+vKbd_ctrl
+R0
+!i10b 1
+!s100 CI06[H]^[Hn@czMKIDPVg3
+IokaLARUajd:7^1Y`8ePFO2
+R1
+R2
+w1250908342
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Kbd_ctrl.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Kbd_ctrl.v
+L0 22
+R3
+r1
+!s85 0
+31
+!s108 1581204885.416000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Kbd_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Kbd_ctrl.v|
+!i113 1
+R4
+n@kbd_ctrl
+vkey2ascii
+R0
+!i10b 1
+!s100 ^<?o;lZSLa>AebeLX[[lU1
+Iee`c7iP:kN4H;c9VIWMjM2
+R1
+R2
+w1219102708
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/key2ascii.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/key2ascii.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1581204885.556000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/key2ascii.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/key2ascii.v|
+!i113 1
+R4
+vLCD_Scope_Encapsulated_pacoblaze_wrapper
+R0
+!i10b 1
+!s100 FoFm9Xbm^6EPmFgPLScoo1
+IoZLJ?b=dnk_UDek3ozSPG0
+R1
+R2
+w1462695286
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/LCD_Scope_Encapsulated_pacoblaze_wrapper.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/LCD_Scope_Encapsulated_pacoblaze_wrapper.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1581204885.697000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/LCD_Scope_Encapsulated_pacoblaze_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/LCD_Scope_Encapsulated_pacoblaze_wrapper.v|
+!i113 1
+R4
+n@l@c@d_@scope_@encapsulated_pacoblaze_wrapper
+vspeed_control
+!s110 1581319443
+!i10b 1
+!s100 CH6_>IMaiFc?:k;zz_kmV2
+IZ_R2?W2`4;]fSHW03mN_G2
+R1
+R2
+w1581319440
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/speed_control.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/speed_control.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1581319443.481000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/speed_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/speed_control.v|
+!i113 1
+R4
+vwidereg
+Z6 !s110 1581204886
+!i10b 1
+!s100 z;jGJN]RgGA;2BeodJ;5K1
+IznNNBbPRIo2>08<GW:fiM0
+R1
+R2
+w961810828
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/widereg.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/widereg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1581204885.957000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/widereg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/widereg.v|
+!i113 1
+R4
+vWrite_Kbd_To_LCD
+R6
+!i10b 1
+!s100 6LZOEHjZAAdDZ[<T;Sc7Q1
+IA=mC=_O4]GjXZRQ9dkQmm0
+R1
+R2
+w1205344254
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_LCD.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_LCD.v
+Z7 L0 21
+R3
+r1
+!s85 0
+31
+!s108 1581204886.176000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_LCD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_LCD.v|
+!i113 1
+R4
+n@write_@kbd_@to_@l@c@d
+vWrite_Kbd_To_Scope_LCD
+!s110 1581204884
+!i10b 1
+!s100 a``?9?@fSUL[GYkNfNnSe0
+ITXX[>SEdJVFjb=`BJFR9X2
+R1
+R2
+w1250908358
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_Scope_LCD.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_Scope_LCD.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1581204884.882000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_Scope_LCD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_Scope_LCD.v|
+!i113 1
+R4
+n@write_@kbd_@to_@scope_@l@c@d
