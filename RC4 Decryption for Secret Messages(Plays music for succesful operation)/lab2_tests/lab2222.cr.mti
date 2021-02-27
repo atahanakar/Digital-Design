@@ -1,0 +1,109 @@
+{Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm2.v} {1 {vlog -work work -stats=none {Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module fsm2
+
+Top level modules:
+	fsm2
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_LCD.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_LCD.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Write_Kbd_To_LCD
+
+Top level modules:
+	Write_Kbd_To_LCD
+
+} {} {}} {Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm_tb.v} {1 {vlog -work work -stats=none {Z:/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module fsm_tb
+
+Top level modules:
+	fsm_tb
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/key2ascii.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/key2ascii.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module key2ascii
+
+Top level modules:
+	key2ascii
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Kbd_ctrl.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Kbd_ctrl.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Kbd_ctrl
+
+Top level modules:
+	Kbd_ctrl
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/fsm.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module fsm
+
+Top level modules:
+	fsm
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/widereg.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/widereg.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module widereg
+
+Top level modules:
+	widereg
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_Scope_LCD.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Write_Kbd_To_Scope_LCD.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Write_Kbd_To_Scope_LCD
+
+Top level modules:
+	Write_Kbd_To_Scope_LCD
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/doublesync.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/doublesync.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module doublesync
+
+Top level modules:
+	doublesync
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Generate_Arbitrary_Divided_Clk32.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/Generate_Arbitrary_Divided_Clk32.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Generate_Arbitrary_Divided_Clk32
+
+Top level modules:
+	Generate_Arbitrary_Divided_Clk32
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/speed_control.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/speed_control.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module speed_control
+
+Top level modules:
+	speed_control
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v} {0 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module simple_ipod_solution
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(125): near ";": Syntax error.
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(128): (vlog-2730) Undefined variable: 'LED'.
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(370): near ";": Syntax error.
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(371): near ";": Syntax error.
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(486): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(491): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(503): (vlog-2388) 'speed_up_event_trigger' already declared in this scope (simple_ipod_solution).
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(504): (vlog-2388) 'speed_down_event_trigger' already declared in this scope (simple_ipod_solution).
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(549): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(560): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(563): (vlog-2730) Undefined variable: 'Seven_Seg_Val'.
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(563): (vlog-2730) Undefined variable: 'Seven_Seg_Data'.
+
+** Error: //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/simple_ipod_solution.v(588): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER
+
+} {4.0 6.0 7.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 20.0 21.0 22.0 23.0 24.0} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/LCD_Scope_Encapsulated_pacoblaze_wrapper.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB2/lab2_tests/LCD_Scope_Encapsulated_pacoblaze_wrapper.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module LCD_Scope_Encapsulated_pacoblaze_wrapper
+
+Top level modules:
+	LCD_Scope_Encapsulated_pacoblaze_wrapper
+
+} {} {}}

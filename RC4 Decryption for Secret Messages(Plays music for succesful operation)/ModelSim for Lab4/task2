@@ -1,0 +1,12 @@
+module task2(secret_key,encrypted_input,descrypted_output);
+input [23:0]secret_key;
+input [255:0]encrypted_input;
+
+output [255:0]descrypted_output;
+
+
+
+
+
+
+endmodule 

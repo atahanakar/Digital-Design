@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at task3.v(24): object "cracked" differs only in case from object "CRACKED" in the same scope
+Info (10281): Verilog HDL Declaration information at task3.v(24): object "failed" differs only in case from object "FAILED" in the same scope
+Info (10281): Verilog HDL Declaration information at fsm2.v(8): object "read" differs only in case from object "READ" in the same scope

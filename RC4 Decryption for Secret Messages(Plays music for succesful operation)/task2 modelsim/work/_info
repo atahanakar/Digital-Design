@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vtask2
+!s110 1583714577
+!i10b 1
+!s100 dkFE_PPz<IGNlm;Zhh^T10
+IJRXCF?cGWUImmogXgHhWE3
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 d//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim
+w1583714575
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2.v
+L0 2
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1583714577.857000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2.v|
+!i113 1
+Z3 o-work work
+vtask2_tb
+!s110 1583714581
+!i10b 1
+!s100 7[a]M0Y?3oeYTo8?B]X@n3
+IjPPZZz:nG[0i8f6VgU<^42
+R0
+R1
+w1583714466
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2_tb.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1583714581.507000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task2 modelsim/task2_tb.v|
+!i113 1
+R3

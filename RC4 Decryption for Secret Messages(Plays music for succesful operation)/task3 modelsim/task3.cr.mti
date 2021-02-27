@@ -1,0 +1,8 @@
+{//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task3 modelsim/task3_tb.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/task3 modelsim/task3_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module task3_tb
+
+Top level modules:
+	task3_tb
+
+} {} {}}

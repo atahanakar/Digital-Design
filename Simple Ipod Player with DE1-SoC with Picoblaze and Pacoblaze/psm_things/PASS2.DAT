@@ -1,0 +1,1580 @@
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Port definitions
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-LED_port
+   OPERAND2-80
+    COMMENT-;8 simple LEDs. Is an OUTPUT port. for LED[9:2]
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-DATA_IN_PORT
+   OPERAND2-00
+    COMMENT-;input data port. this is an INPUT port.
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-LED_0
+   OPERAND2-40
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ISR_preserve_s0
+   OPERAND2-00
+    COMMENT-;Preserve s0 contents during ISR
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ISR_preserve_s1
+   OPERAND2-01
+    COMMENT-;Preserve s1 contents during ISR
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ISR_preserve_s2
+   OPERAND2-02
+    COMMENT-;Preserve s2 contents during ISR
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ISR_preserve_s3
+   OPERAND2-03
+    COMMENT-;Preserve s3 contents during ISR
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ISR_preserve_s4
+   OPERAND2-04
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-ISR_preserve_s5
+   OPERAND2-05
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-sum1
+   OPERAND2-06
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-sum2
+   OPERAND2-07
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-counter
+   OPERAND2-08
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-LED_pattern
+   OPERAND2-04
+    COMMENT-;remember state of LEDs (8-bit counter in this case)
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Useful data constants
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Constant to define a software delay of 1us. This must be adjusted to reflect the
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; clock applied to KCPSM3. Every instruction executes in 2 clock cycles making the
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; calculation highly predictable. The '6' in the following equation even allows for
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; 'CALL delay_1us' instruction in the initiating code.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; delay_1us_constant =  (clock_rate - 6)/4       Where 'clock_rate' is in MHz
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Example: For a 50MHz clock the constant value is (10-6)/4 = 11  (0B Hex).
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; For clock rates below 10MHz the value of 1 must be used and the operation will
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; become lower than intended. Interrupts may effect the timing of software based
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; delays.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-delay_1us_constant
+   OPERAND2-05
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; ASCII table
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_a
+   OPERAND2-61
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_b
+   OPERAND2-62
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_c
+   OPERAND2-63
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_d
+   OPERAND2-64
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_e
+   OPERAND2-65
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_f
+   OPERAND2-66
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_g
+   OPERAND2-67
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_h
+   OPERAND2-68
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_i
+   OPERAND2-69
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_j
+   OPERAND2-6A
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_k
+   OPERAND2-6B
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_l
+   OPERAND2-6C
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_m
+   OPERAND2-6D
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_n
+   OPERAND2-6E
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_o
+   OPERAND2-6F
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_p
+   OPERAND2-70
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_q
+   OPERAND2-71
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_r
+   OPERAND2-72
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_s
+   OPERAND2-73
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_t
+   OPERAND2-74
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_u
+   OPERAND2-75
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_v
+   OPERAND2-76
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_w
+   OPERAND2-77
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_x
+   OPERAND2-78
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_y
+   OPERAND2-79
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_z
+   OPERAND2-7A
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_A
+   OPERAND2-41
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_B
+   OPERAND2-42
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_C
+   OPERAND2-43
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_D
+   OPERAND2-44
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_E
+   OPERAND2-45
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_F
+   OPERAND2-46
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_G
+   OPERAND2-47
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_H
+   OPERAND2-48
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_I
+   OPERAND2-49
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_J
+   OPERAND2-4A
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_K
+   OPERAND2-4B
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_L
+   OPERAND2-4C
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_M
+   OPERAND2-4D
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_N
+   OPERAND2-4E
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_O
+   OPERAND2-4F
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_P
+   OPERAND2-50
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_Q
+   OPERAND2-51
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_R
+   OPERAND2-52
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_S
+   OPERAND2-53
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_T
+   OPERAND2-54
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_U
+   OPERAND2-55
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_V
+   OPERAND2-56
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_W
+   OPERAND2-57
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_X
+   OPERAND2-58
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_Y
+   OPERAND2-59
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_Z
+   OPERAND2-5A
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_0
+   OPERAND2-30
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_1
+   OPERAND2-31
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_2
+   OPERAND2-32
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_3
+   OPERAND2-33
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_4
+   OPERAND2-34
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_5
+   OPERAND2-35
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_6
+   OPERAND2-36
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_7
+   OPERAND2-37
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_8
+   OPERAND2-38
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_9
+   OPERAND2-39
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_colon
+   OPERAND2-3A
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_stop
+   OPERAND2-2E
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_semi_colon
+   OPERAND2-3B
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_minus
+   OPERAND2-2D
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_divide
+   OPERAND2-2F
+    COMMENT-;'/'
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_plus
+   OPERAND2-2B
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_comma
+   OPERAND2-2C
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_less_than
+   OPERAND2-3C
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_greater_than
+   OPERAND2-3E
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_equals
+   OPERAND2-3D
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_space
+   OPERAND2-20
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_CR
+   OPERAND2-0D
+    COMMENT-;carriage return
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_question
+   OPERAND2-3F
+    COMMENT-;'?'
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_dollar
+   OPERAND2-24
+    COMMENT-
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_exclaim
+   OPERAND2-21
+    COMMENT-;'!'
+      LABEL-
+INSTRUCTION-CONSTANT
+   OPERAND1-character_BS
+   OPERAND2-08
+    COMMENT-;Back Space command character
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Initialise the system
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-cold_start
+INSTRUCTION-LOAD
+   OPERAND1-s0
+   OPERAND2-00
+    COMMENT-
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s0
+   OPERAND2-LED_pattern
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s0
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-ENABLE
+   OPERAND1-INTERRUPT
+   OPERAND2-
+    COMMENT-;now interrupts are on
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;*******************PART1*******************;
+      LABEL-main_program
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s6
+   OPERAND2-01
+    COMMENT-;mov s1,#1
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s6
+   OPERAND2-LED_0
+    COMMENT-;now the LED0 is on
+      LABEL-
+INSTRUCTION-CALL
+   OPERAND1-delay_1s
+   OPERAND2-
+    COMMENT-;wait 1 second
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s6
+   OPERAND2-00
+    COMMENT-;mov s1,#0
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s6
+   OPERAND2-LED_0
+    COMMENT-;now the LED0 is off
+      LABEL-
+INSTRUCTION-CALL
+   OPERAND1-delay_1s
+   OPERAND2-
+    COMMENT-;wait 1 second
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-main_program
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Software delay routines
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Delay of 1us.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Constant value 'delay_1us_constant' reflects the clock applied to KCPSM3. Every
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; instruction executes in 2 clock cycles making the calculation highly predictable.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; The '6' in the following equation allows for the 'CALL delay_1us' instruction used
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; in the initiating code. Interrupts may effect software derived delays.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; delay_1us_constant =  (clock_rate - 6)/4       Where 'clock_rate' is in MHz
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Registers used s0
+      LABEL-delay_1us
+INSTRUCTION-LOAD
+   OPERAND1-s0
+   OPERAND2-delay_1us_constant
+    COMMENT-
+      LABEL-wait_1us
+INSTRUCTION-SUB
+   OPERAND1-s0
+   OPERAND2-01
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NZ
+   OPERAND2-wait_1us
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURN
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Delay of 40us.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Registers used s0, s1
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-delay_40us
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-28
+    COMMENT-;40 x 1us = 40us
+      LABEL-wait_40us
+INSTRUCTION-CALL
+   OPERAND1-delay_1us
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SUB
+   OPERAND1-s1
+   OPERAND2-01
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NZ
+   OPERAND2-wait_40us
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURN
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Delay of 1ms.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Registers used s0, s1, s2
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-delay_1ms
+INSTRUCTION-LOAD
+   OPERAND1-s2
+   OPERAND2-19
+    COMMENT-;25 x 40us = 1ms
+      LABEL-wait_1ms
+INSTRUCTION-CALL
+   OPERAND1-delay_40us
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SUB
+   OPERAND1-s2
+   OPERAND2-01
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NZ
+   OPERAND2-wait_1ms
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURN
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Delay of 20ms.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Delay of 20ms used during initialisation.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Registers used s0, s1, s2, s3
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-delay_20ms
+INSTRUCTION-LOAD
+   OPERAND1-s3
+   OPERAND2-14
+    COMMENT-;20 x 1ms = 20ms
+      LABEL-wait_20ms
+INSTRUCTION-CALL
+   OPERAND1-delay_1ms
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SUB
+   OPERAND1-s3
+   OPERAND2-01
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NZ
+   OPERAND2-wait_20ms
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURN
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Delay of approximately 1 second.
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Registers used s0, s1, s2, s3, s4
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-delay_1s
+INSTRUCTION-LOAD
+   OPERAND1-s4
+   OPERAND2-32
+    COMMENT-;50 x 20ms = 1000ms
+      LABEL-wait_1s
+INSTRUCTION-CALL
+   OPERAND1-delay_20ms
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SUB
+   OPERAND1-s4
+   OPERAND2-01
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NZ
+   OPERAND2-wait_1s
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURN
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;from pracPICO.psm
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;*******************PART2***************************;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;some important comments:
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;we need to read the data and then  s1 counter s2 sum
+      LABEL-ISR
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s0
+   OPERAND2-ISR_preserve_s0
+    COMMENT-;data
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s1
+   OPERAND2-ISR_preserve_s1
+    COMMENT-;let's use it as a counter
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s2
+   OPERAND2-ISR_preserve_s2
+    COMMENT-;let's use it as sum1
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s3
+   OPERAND2-ISR_preserve_s3
+    COMMENT-;let's use it as sum2
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s4
+   OPERAND2-ISR_preserve_s4
+    COMMENT-;let's use it as unimportant sum
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s5
+   OPERAND2-ISR_preserve_s5
+    COMMENT-;this is the output of led
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s1
+   OPERAND2-counter
+    COMMENT-; reload the values of this
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s2
+   OPERAND2-sum1
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s3
+   OPERAND2-sum2
+    COMMENT-
+      LABEL-
+INSTRUCTION-INPUT
+   OPERAND1-s0
+   OPERAND2-DATA_IN_PORT
+    COMMENT-; s0 gets the data
+      LABEL-
+INSTRUCTION-COMPARE
+   OPERAND1-s0
+   OPERAND2-80
+    COMMENT-; see if the msb is 1 which means negative
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-negative_to_positive
+    COMMENT-
+      LABEL-continue1
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;now  256 times wait
+      LABEL-
+INSTRUCTION-ADD
+   OPERAND1-s2
+   OPERAND2-s0
+    COMMENT-;  now add this sum1
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-C
+   OPERAND2-increment_LED
+    COMMENT-
+      LABEL-counter
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-ADD
+   OPERAND1-s1
+   OPERAND2-01
+    COMMENT-;will finish it after it reaches to FF
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-C
+   OPERAND2-got_256
+    COMMENT-
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s1
+   OPERAND2-counter
+    COMMENT-;save them to memory
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s2
+   OPERAND2-sum1
+    COMMENT-
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s3
+   OPERAND2-sum2
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s0
+   OPERAND2-ISR_preserve_s0
+    COMMENT-;let's return them to the stack
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s1
+   OPERAND2-ISR_preserve_s1
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s2
+   OPERAND2-ISR_preserve_s2
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s3
+   OPERAND2-ISR_preserve_s3
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s4
+   OPERAND2-ISR_preserve_s4
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s5
+   OPERAND2-ISR_preserve_s5
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURNI
+   OPERAND1-ENABLE
+   OPERAND2-
+    COMMENT-
+      LABEL-increment_LED
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-ADD
+   OPERAND1-s3
+   OPERAND2-01
+    COMMENT-;sum2 is incrementing by 1
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-counter
+   OPERAND2-
+    COMMENT-
+      LABEL-negative_to_positive
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-XOR
+   OPERAND1-s0
+   OPERAND2-FF
+    COMMENT-
+      LABEL-
+INSTRUCTION-ADD
+   OPERAND1-s0
+   OPERAND2-01
+    COMMENT-;now we convert negative to positive
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-continue1
+   OPERAND2-
+    COMMENT-
+      LABEL-got_256
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;here we will compare the value of sum2 then output it to LEDs
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;let's say we got 5 = 00000101 then we need to get xxx00000
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-six
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-FF
+    COMMENT-;LED2
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-six
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-five
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-FE
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-five
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-four
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-FC
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-four
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-three
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-F8
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-three
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-two
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-F0
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-two
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-one
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-E0
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-one
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-zero
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-C0
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-zero
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-SL0
+   OPERAND1-s2
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-NC
+   OPERAND2-END
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s5
+   OPERAND2-80
+    COMMENT-
+      LABEL-
+INSTRUCTION-OUTPUT
+   OPERAND1-s5
+   OPERAND2-LED_port
+    COMMENT-
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-END
+   OPERAND2-
+    COMMENT-
+      LABEL-END
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s1
+   OPERAND2-00
+    COMMENT-; reset
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s2
+   OPERAND2-00
+    COMMENT-
+      LABEL-
+INSTRUCTION-LOAD
+   OPERAND1-s3
+   OPERAND2-00
+    COMMENT-
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s1
+   OPERAND2-counter
+    COMMENT-; save to memory
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s2
+   OPERAND2-sum1
+    COMMENT-
+      LABEL-
+INSTRUCTION-STORE
+   OPERAND1-s3
+   OPERAND2-sum2
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s0
+   OPERAND2-ISR_preserve_s0
+    COMMENT-;let's return them to the stack
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s1
+   OPERAND2-ISR_preserve_s1
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s2
+   OPERAND2-ISR_preserve_s2
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s3
+   OPERAND2-ISR_preserve_s3
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s4
+   OPERAND2-ISR_preserve_s4
+    COMMENT-
+      LABEL-
+INSTRUCTION-FETCH
+   OPERAND1-s5
+   OPERAND2-ISR_preserve_s5
+    COMMENT-
+      LABEL-
+INSTRUCTION-RETURNI
+   OPERAND1-ENABLE
+   OPERAND2-
+    COMMENT-
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-; Interrupt Vector
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;**************************************************************************************
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-ADDRESS
+   OPERAND1-3FF
+   OPERAND2-
+    COMMENT-;for interrupt
+      LABEL-
+INSTRUCTION-JUMP
+   OPERAND1-ISR
+   OPERAND2-
+    COMMENT-;for interrupt
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;
+      LABEL-
+INSTRUCTION-
+   OPERAND1-
+   OPERAND2-
+    COMMENT-;

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0
+vtask1
+!s110 1583647671
+!i10b 1
+!s100 <@iVl3`@^WQ^ZUc^ihc5O3
+IS^]AJZRz_RN;g2L:gz>a91
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 d//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4
+w1583647668
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1.v
+L0 1
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1583647671.716000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1.v|
+!i113 1
+Z3 o-work work
+vtask1_tb
+!s110 1583628083
+!i10b 1
+!s100 bznZGGh?CAO82PZR8M<E^0
+I_Z6^4Pb@`I=UJ_Rc3fVPE1
+R0
+R1
+w1583628074
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1_tb.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1583628082.998000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1_tb.v|
+!i113 1
+R3
+vtask2_fsm
+!s110 1583646706
+!i10b 1
+!s100 PIhLiJc:;`f;S][<>B^7m3
+IO3@H@X2EQB4_^EbM^Y@R50
+R0
+R1
+w1583646702
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2_fsm.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2_fsm.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1583646706.895000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2_fsm.v|
+!i113 1
+R3
+vtask2a_tb
+!s110 1583647043
+!i10b 1
+!s100 [bFGWF8c_0?hCg4CH3[Po1
+Idlj_egVWa@Q1aY8ge7Hzl0
+R0
+R1
+w1583647014
+8//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2a_tb.v
+F//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2a_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1583647043.466000
+!s107 //Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2a_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2a_tb.v|
+!i113 1
+R3

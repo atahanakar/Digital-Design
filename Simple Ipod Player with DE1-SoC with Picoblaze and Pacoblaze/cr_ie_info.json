@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.2"
+	},
+	"error" : {
+		"executable" : "quartus_asm",
+		"comment" : "none",
+		"error_message" : "u2b_bcm_netlist != NULL",
+		"source_file" : "/quartus/comp/asm/asm_model_generator.h",
+		"line" : "217",
+		"stack_trace" : "\t0x7ffe8e4d915b: comp_asm + 0x8915b (?pdb_this_ptr@ASM_LAB_BIT_INFO@@QEBAPEAXXZ + 0x7e77b)\n\t0x7ffe8e6bb2a7: comp_asm + 0x26b2a7 (??6ASM_LAB_BIT_INFO@@QEAAXAEAV?$PDB_SEGMENT_TEMPLATE@VPDB_DDB_SEG_BASE@@@@@Z + 0x16437)\n\t0x7ffe8e63adc3: comp_asm + 0x1eadc3 (?asm_retrieve_rba_tag_data@@YAXAEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@@@@std@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@2@11@Z + 0x773)\n\t0x7ffe8e63c90d: comp_asm + 0x1ec90d (?asm_retrieve_rba_tag_data@@YAXAEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@@@@std@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@2@11@Z + 0x22bd)\n\t0x7ffe8e638be2: comp_asm + 0x1e8be2 (?asm_assemble@@YAHPEAVCMP_FACADE@@KAEA_NAEBVFIO_PATH@@@Z + 0x492)\n\t0x7ff6c08e3913: quartus_asm + 0x3913 (??4QASM_ACCESSOR_PROXY@@QEAAAEAV0@AEBV0@@Z + 0xb53)\n\t0x7ffececa2540: comp_qexe + 0x12540 (?qexe_apply_ini_vars@@YAXXZ + 0x2450)\n\t0x7ffececa75f2: comp_qexe + 0x175f2 (?qexe_process_cmdline_arguments@@YA_NPEAVQEXE_CMDLINE@@HPEAPEBD@Z + 0x2502)\n\t0x7ffececa8381: comp_qexe + 0x18381 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff6c08e60a3: quartus_asm + 0x60a3 (??4QASM_ACCESSOR_PROXY@@QEAAAEAV0@AEBV0@@Z + 0x32e3)\n\t0x7ffec5cbcad8: CCL_MSG + 0xcad8 (?msg_initialize_out_of_memory_handler@@YAXXZ + 0x378)\n\t0x7ffec5cbe20c: CCL_MSG + 0xe20c (?msg_set_stack_size@@YAXH@Z + 0x7c)\n\t0x7ffec5dc5aa0: ccl_mem + 0x5aa0 (?mem_gen_get_project_output_directory@@YAPEBDXZ + 0x64)\n\t0x7ffec5cbc721: CCL_MSG + 0xc721 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff6c08e843a: quartus_asm + 0x843a (??1QASM_ACCESSOR_PROXY@@UEAA@XZ + 0x18da)\n\t0x7ffed8d57973: KERNEL32 + 0x17973 (BaseThreadInitThunk + 0x13)\n\t0x7ffed951a270: ntdll + 0x6a270 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "ASM"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "14.1.0",
+		"build" : "186",
+		"edition" : "Web Edition"
+	}
+}

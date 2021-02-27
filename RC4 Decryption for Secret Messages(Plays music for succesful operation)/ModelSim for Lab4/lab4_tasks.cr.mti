@@ -1,0 +1,29 @@
+{//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2_fsm.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2_fsm.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module task2_fsm
+
+Top level modules:
+	task2_fsm
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2a_tb.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task2a_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module task2a_tb
+
+Top level modules:
+	task2a_tb
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module task1
+
+Top level modules:
+	task1
+
+} {} {}} {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1_tb.v} {1 {vlog -work work -stats=none {//Mac/Home/Desktop/UBC/3rd Year/Winter2/CPEN311/LAB4/ModelSim for Lab4/task1_tb.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module task1_tb
+
+Top level modules:
+	task1_tb
+
+} {} {}}
